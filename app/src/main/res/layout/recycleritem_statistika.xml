@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="*"
+    android:layout_margin="10dp"
+    android:background="#42A5F5"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <TableRow>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/naziv_Zanimanja_label_id"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="Naziv:"
+            />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/naziv_Zanimanja_id"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:text="nazivStatistika"
+            />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/mogucnost_nastavka_label_id"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="Mogucnost Nastavka:"
+            />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/mogucnost_nastavka_id"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:text="mogucnost nastavka"
+            />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/stanje_aktivne_ponude_label_id"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="Stanje aktivne ponude:"
+            />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/stanje_aktivne_ponude_id"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:text="stanje aktivne ponude"
+            />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/zaposleni_label_id"
+            android:text="Zaposleni u 2017 godini:"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/zaposleni_id"
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:text="Opis"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+    </TableRow>
+</TableLayout>

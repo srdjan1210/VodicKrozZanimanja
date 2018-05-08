@@ -1,0 +1,101 @@
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="*"
+    android:layout_margin="10dp"
+    android:background="#42A5F5"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <TableRow>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/naziv_label_opis_id"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="Naziv:"
+            />
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:id="@+id/naziv_opis_id"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/struka_label_opis_id"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="Struka:"
+            />
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:id="@+id/struka_opis_id"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/razredi_label_opis_id"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="Razredi:"
+            />
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:id="@+id/razredi_opis_id"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/opis_label_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Opis"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:id="@+id/opis_opis_id"
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </TableRow>
+</TableLayout>

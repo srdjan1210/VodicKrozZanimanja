@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="*"
+    android:layout_margin="10dp"
+    android:background="#42A5F5"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/naziv_label_id"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Назив"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/stepen_label_id"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Struka"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/brojUcenika_label_id"
+                android:layout_width="12dp"
+                android:layout_height="wrap_content"
+                android:text="Opis"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/brojOdjeljenja_label_id"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Razredi"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/naziv_id"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="razredi"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/stepen_id"
+                android:layout_width="2dp"
+                android:layout_height="wrap_content"
+                android:text="Opis"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/brojUcenika_id"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="3dp"
+                android:text="naziv"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/brojOdjeljenja_id"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="struka"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+        </TableRow>
+    </TableLayout>
